@@ -4,9 +4,9 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(73, 80, 87, .4);
+    /*background-color: rgba(73, 80, 87, .4);*/
     transform: translateX(-100vw);
-    transition: transform 200ms ease-in-out 100ms;
+    transition: transform 300ms ease-in-out 100ms;
     font-family: "Inter", Helvetica, serif;
     font-style: normal;
 }
@@ -14,7 +14,6 @@
 .burger-menu__window {
     width: 375px;
     height: 100vh;
-    margin:0;
     padding: 16px;
     box-sizing: border-box;
     background-color: var(--grey-5);
