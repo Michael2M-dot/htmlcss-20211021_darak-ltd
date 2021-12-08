@@ -11,7 +11,7 @@
 .header__lead {
     width: 100%;
     height: 34px;
-    margin: 0 auto 63px;
+    margin: 0 auto;
 
     display: flex;
     flex-direction: row;
@@ -19,6 +19,14 @@
     align-items: center;
 
 }
+
+.header__lead-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 
 .header__logo {
     width: 110px;
@@ -39,6 +47,65 @@
     line-height: 64px;
     letter-spacing: 0;
     text-align: left;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav-item {
+    margin: 0 24px 0 0;
+}
+
+.header__nav-item:last-of-type {
+    margin-right: 0;
+}
+
+.header__nav-link {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--grey-3);
+
+    text-decoration: none;
+}
+
+.header__nav-link_active {
+    color: var(--black);
+}
+
+.header__theme-toggler {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 57px;
+}
+
+.header__theme-toggler-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--grey-3);
+}
+
+.header__theme-toggler-icon_active {
+    color: var(--grey-4);
+}
+
+.header__theme-toggler-icon:first-child {
+    margin-right: 15px;
+}
+
+.header__theme-toggler-icon:last-child {
+    margin-left: 15px;
 }
 
 @media screen and (max-width: 1110px) {
@@ -67,5 +134,9 @@
     .header__lead {
         margin-top: 17px;
         margin-bottom: 17px;
+    }
+
+    .header__lead-wrapper {
+        display: none;
     }
 }
