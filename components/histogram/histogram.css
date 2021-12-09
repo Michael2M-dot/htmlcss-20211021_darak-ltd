@@ -1,5 +1,12 @@
 .histogram {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+
     font-family: "Inter", Helvetica, serif;
     color: var(--black);
     background: var(--white);
@@ -11,7 +18,8 @@
 }
 
 .histogram__header {
-    margin: 0 auto 39px;
+    width: 100%;
+    margin: 0 auto;
 
     display: flex;
     flex-direction: row;
@@ -56,11 +64,11 @@
 
     color:var(--blue-1);
 
-
     text-decoration: none;
 }
 
 .histogram__chart {
+    width: 100%;
     height: 50px;
 
     margin: 0;
