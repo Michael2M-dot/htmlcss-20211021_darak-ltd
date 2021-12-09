@@ -32,6 +32,12 @@
     gap: 16px;
 }
 
+.card__elem-calendar {
+    /*margin: 32px auto;*/
+    max-width: 202px;
+    /*max-height: 212px;*/
+}
+
 .card__title {
     margin: 0 auto 6px;
 
