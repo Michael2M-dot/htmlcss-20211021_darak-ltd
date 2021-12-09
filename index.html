@@ -234,7 +234,25 @@
                         <p class="card__subtitle">Container</p>
                     </div>
                     <div class="card content__card">
-                        <div class="card__elem"></div>
+                        <div class="card__elem card__modal-container">
+                            <button type="button" id="modal-open" class="button button_primary">Open modal</button>
+                            <div id="modal" class="modal card__elem_modal">
+                                <div class="modal__window">
+                                    <svg class="modal__icon-close" id="modal-close">
+                                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_close"/>
+                                    </svg>
+                                    <h3 class="modal__title">Modal title</h3>
+                                    <p class="modal__text">
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <h3 class="card__title">Modal dialog</h3>
                         <p class="card__subtitle">Container</p>
                     </div>
@@ -295,6 +313,7 @@
                         <p class="card__subtitle">Element</p>
                     </div>
                  </div>
+                <button type="button" class="button button_alternative content__button">Load more</button>
             </main>
             <footer class="footer page__footer">
                 <h2 class="footer__title">About</h2>
@@ -306,5 +325,6 @@
                 </p>
             </footer>
         </div>
+        <script src="./src/index.js"></script>
     </body>
 </html>

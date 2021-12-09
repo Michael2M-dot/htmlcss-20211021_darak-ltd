@@ -48,6 +48,22 @@
     height: 157px;
 }
 
+.card__elem_modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    visibility: visible;
+    overflow: visible;
+}
+
+.card__modal-container {
+    margin: 32px;
+    position: relative;
+    box-sizing: border-box;
+}
+
 
 .card__title {
     margin: 0 auto 6px;

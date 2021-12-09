@@ -1,4 +1,8 @@
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex-grow: 1;
 
     background: var(--grey-5);
@@ -23,7 +27,7 @@
     box-sizing: border-box;
 
     margin: 0 auto;
-    padding: 68px 0 92px;
+    padding: 68px 0 64px;
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -33,6 +37,10 @@
 .content__card {
     height: 367px;
     /*flex-basis: calc(100% / 3 - 60px / 3);*/
+}
+
+.content__button {
+    margin: 0 auto 92px;
 }
 
 @media screen and  (max-width: 768px) {
