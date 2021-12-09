@@ -1,4 +1,5 @@
 .histogram {
+    width: 100%;
     font-family: "Inter", Helvetica, serif;
     color: var(--black);
     background: var(--white);
