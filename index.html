@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="./components/checkbox/checkbox.css">
         <link rel="stylesheet" href="./components/toggler/toggler.css">
         <link rel="stylesheet" href="./components/tooltip/tooltip.css">
+        <link rel="stylesheet" href="./components/radio/radio.css">
         <link rel="stylesheet" href="./components/logo/logo.css">
         <link rel="stylesheet" href="./components/content/content.css">
         <link rel="stylesheet" href="./components/card/card.css">
@@ -120,7 +121,72 @@
                         <p class="card__subtitle">Container</p>
                     </div>
                     <div class="card content__card">
-                        <div class="card__elem"></div>
+                        <div class="card__elem card__elem_checkbox">
+                            <div class="card__elem-wrapper">
+                                <label class="checkbox container__checkbox">
+                                    <input type="checkbox" class="checkbox__input" name="checkbox" value="default">
+                                    <div class="checkbox__container">
+                                        <div class="checkbox__control">
+                                            <svg class="checkbox__icon">
+                                                <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                                            </svg>
+                                        </div>
+                                        <div class="checkbox__title">Default</div>
+                                    </div>
+                                </label>
+                                <label class="checkbox container__checkbox">
+                                    <input type="checkbox" class="checkbox__input" name="checkbox" value="checked" checked>
+                                    <div class="checkbox__container">
+                                        <div class="checkbox__control">
+                                            <svg class="checkbox__icon">
+                                                <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                                            </svg>
+                                        </div>
+                                        <div class="checkbox__title">Checked</div>
+                                    </div>
+                                </label>
+                                <label class="checkbox container__checkbox">
+                                    <input type="checkbox" class="checkbox__input" name="checkbox" value="disabled" disabled>
+                                    <div class="checkbox__container">
+                                        <div class="checkbox__control">
+                                            <svg class="checkbox__icon">
+                                                <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                                            </svg>
+                                        </div>
+                                        <div class="checkbox__title">Disabled</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="card__elem-wrapper">
+                                <label class="radio container__radio">
+                                    <input type="radio" class="radio__input" value="default" name="radio">
+                                    <div class="radio__container">
+                                        <div class="radio__control">
+                                            <div class="radio__control-inner"></div>
+                                        </div>
+                                        <div class="radio__title">Default</div>
+                                    </div>
+                                </label>
+                                <label class="radio container__radio">
+                                    <input type="radio" class="radio__input" value="selected" name="radio" checked>
+                                    <div class="radio__container">
+                                        <div class="radio__control">
+                                            <div class="radio__control-inner"></div>
+                                        </div>
+                                        <div class="radio__title">Selected</div>
+                                    </div>
+                                </label>
+                                <label class="radio container__radio">
+                                    <input type="radio" class="radio__input" value="disabled" name="radio" disabled>
+                                    <div class="radio__container">
+                                        <div class="radio__control">
+                                            <div class="radio__control-inner"></div>
+                                        </div>
+                                        <div class="radio__title">Disabled</div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
                         <h3 class="card__title">Custom form elements</h3>
                         <p class="card__subtitle">Element</p>
                     </div>
