@@ -8,6 +8,7 @@
     flex-direction: column;
 
     padding-bottom: 32px;
+    box-sizing: border-box;
 }
 
 .card__elem {
@@ -33,10 +34,17 @@
 }
 
 .card__elem-calendar {
-    /*margin: 32px auto;*/
-    max-width: 202px;
-    /*max-height: 212px;*/
+    width: 100%;
+    padding-top: 32px;
+    box-sizing: border-box;
 }
+
+.card__calendar {
+    max-width: 202px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 
 .card__elem_histogram {
     padding-right: 25px;
@@ -114,5 +122,28 @@
 
     .card__elem {
         height: 164px;
+        border-bottom: 1px solid var(--grey-2);
     }
+
+    .card__elem_checkbox {
+        gap:10px;
+    }
+
+    .card__calendar {
+        max-width: 164px;
+        max-height: 164px;
+    }
+
+    .card__elem-calendar {
+        padding: 0;
+    }
+
+    .card__modal-container {
+        margin: 0;
+    }
+
+    .card__elem_histogram {
+        padding: 8px;
+    }
+
 }

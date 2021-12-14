@@ -3,7 +3,7 @@
     color: var(--black);
     background: var(--white);
 
-    padding: 16px 24px 24px;
+    padding: 4% 6% 6%;
 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -72,6 +72,7 @@
     flex-wrap: nowrap;
     list-style: none;
     gap: 1px;
+    flex-grow: 1;
 
     animation: float 600ms ease-in;
 }

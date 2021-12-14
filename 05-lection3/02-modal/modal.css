@@ -7,13 +7,10 @@
     left: 0;
     background: var(--modal-background);
 
+    display: none;
+
     font-family: "Inter", Helvetica, serif;
     font-style: normal;
-
-    visibility: hidden;
-    overflow: hidden;
-
-    transition: visibility 200ms ease-in-out;
 }
 
 .modal__window{
@@ -58,6 +55,4 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    color: var(--black);
 }
-

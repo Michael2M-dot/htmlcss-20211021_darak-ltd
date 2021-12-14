@@ -67,3 +67,15 @@
 .calendar__item_marked {
     background: var(--purple-1);
 }
+
+@media screen and (max-width: 768px) {
+    .calendar__title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .calendar__item {
+        font-size: 10px;
+    }
+}
+
