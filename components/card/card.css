@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .card__elem_checkbox {
@@ -47,8 +48,9 @@
 
 
 .card__elem_histogram {
-    padding-right: 25px;
-    padding-left: 25px;
+    /*padding-right: 25px;*/
+    /*padding-left: 25px;*/
+    padding: 80px 25px 75px;
 }
 
 .card__histogram {
@@ -143,7 +145,7 @@
     }
 
     .card__elem_histogram {
-        padding: 8px;
+        padding: 24px 8px;
     }
 
 }

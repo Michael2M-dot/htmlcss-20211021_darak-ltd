@@ -71,7 +71,7 @@
 .histogram__chart {
     width: 100%;
     /*height: 50px;*/
-    height: 100%;
+    /*height: 100%;*/
 
     margin: 0;
     padding: 0;
@@ -83,6 +83,7 @@
     flex-wrap: nowrap;
     list-style: none;
     gap: 1px;
+    flex-grow: 1;
 }
 
 .histogram__chart-column {
